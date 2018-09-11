@@ -1,0 +1,10 @@
+{
+  "globals": {
+    "BroadcastChannel2": true,
+    "getCreateWorker": true,
+    "send": true,
+    "generateId": true,
+    "listen": true,
+    "createWorker": true
+  }
+}
