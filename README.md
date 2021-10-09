@@ -4,6 +4,12 @@ Nested Worker polyfill for Safari. Uses MessageChannel to avoid
 having to send all messages through the main thread. Does not support Shared
 Workers.
 
+## Install
+
+```sh
+yarn add git+https://github.com/johanholmerin/nested-worker#semver:^1.0.0
+```
+
 ## Usage
 
 Import the polyfill in the main thread before creating any worker, and as the
